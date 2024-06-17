@@ -1,0 +1,89 @@
+@import 'abstracts/variables';
+@import 'vendors/bootstrap';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'components/nav';
+@import 'components/button';
+@import 'pages/about';
+
+h1,
+.h1 {
+    font-weight: 700;
+}
+
+h2,
+.h2 {
+    font-weight: 600;
+}
+
+h3,
+.h3 {
+    font-weight: 700;
+}
+
+h4,
+.h4 {
+    font-weight: 600;
+}
+
+h5,
+.h5 {
+    font-weight: 600;
+}
+
+h6,
+.h6 {
+    font-weight: 500;
+    color: $primary;
+}
+
+p {
+    margin-bottom: 1.5rem;
+    line-height: 160%;
+}
+
+.background-gradient-primaray {
+    background: linear-gradient(1deg, #FD5C30 0.53%, rgba(0, 0, 0, 0.00) 101.68%);
+}
+
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+    .carousel-inner .carousel-item>div {
+        display: none;
+    }
+
+    .carousel-inner .carousel-item>div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+/* medium and up screens */
+@media (min-width: 768px) {
+
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next {
+        transform: translateX(25%);
+    }
+
+    .carousel-inner .carousel-item-start.active,
+    .carousel-inner .carousel-item-prev {
+        transform: translateX(-25%);
+    }
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start {
+    transform: translateX(0);
+}

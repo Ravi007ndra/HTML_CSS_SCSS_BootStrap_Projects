@@ -1,0 +1,93 @@
+// The contrast ratio to reach against white, to determine if color changes from "light" to "dark". Acceptable values for WCAG 2.0 are 3, 4.5 and 7.
+// See https://www.w3.org/TR/WCAG20/#visual-audio-contrast-contrast
+$min-contrast-ratio: 3.5;
+
+//body
+$body-line-height: 160%;
+
+// color
+$primary: #F54C1E;
+$secondary: #031333;
+
+// font family
+$font-family-base: 'Poppins', sans-serif;
+
+// navbar-nav
+$navbar-nav-link-padding-x: 1.5rem;
+$navbar-light-color: black;
+$navbar-light-hover-color: $primary;
+
+
+
+
+// $font-size-root affects the value of `rem`, which is used for as well font sizes, paddings, and margins
+// $font-size-base affects the font size of the body text
+$font-size-root: null !default;
+$font-size-base: 1rem !default; // Assumes the browser default, typically `16px`
+$font-size-sm: $font-size-base * .875 !default;
+$font-size-lg: $font-size-base * 1.25 !default;
+
+$font-weight-lighter: lighter !default;
+$font-weight-light: 300 !default;
+$font-weight-normal: 400 !default;
+$font-weight-medium: 500 !default;
+$font-weight-semibold: 600 !default;
+$font-weight-bold: 700 !default;
+$font-weight-bolder: bolder !default;
+
+$font-weight-base: $font-weight-normal !default;
+
+$line-height-base: 1.75 !default;
+
+$h1-font-size: $font-size-base * 3.5 !default;
+$h2-font-size: $font-size-base * 3 !default;
+$h3-font-size: $font-size-base * 2.625 !default;
+$h4-font-size: $font-size-base * 2.375 !default;
+$h5-font-size: $font-size-base * 1.875 !default;
+$h6-font-size: $font-size-base * 1.25 !default;
+// scss-docs-end font-variables
+
+
+// Cards
+
+// scss-docs-start card-variables
+// $card-spacer-y: $spacer !default;
+// $card-spacer-x: $spacer !default;
+// $card-title-spacer-y: $spacer * .5 !default;
+// $card-title-color: null !default;
+// $card-subtitle-color: null !default;
+$card-border-width: 0 !default;
+// $card-border-color: var(--#{$prefix}border-color-translucent) !default;
+// $card-border-radius: var(--#{$prefix}border-radius) !default;
+// $card-box-shadow: null !default;
+// $card-inner-border-radius: subtract($card-border-radius, $card-border-width) !default;
+// $card-cap-padding-y: $card-spacer-y * .5 !default;
+// $card-cap-padding-x: $card-spacer-x !default;
+// $card-cap-bg: rgba(var(--#{$prefix}body-color-rgb), .03) !default;
+// $card-cap-color: null !default;
+// $card-height: null !default;
+// $card-color: null !default;
+// $card-bg: var(--#{$prefix}body-bg) !default;
+// $card-img-overlay-padding: $spacer !default;
+// $card-group-margin: $grid-gutter-width * .5 !default;
+// scss-docs-end card-variables
+
+
+
+
+// scss-docs-start headings-variables
+$headings-margin-bottom: 1.25rem !default;
+$headings-font-family: null !default;
+$headings-font-style: null !default;
+$headings-font-weight: 500 !default;
+$headings-line-height: 140% !default;
+$headings-color: inherit !default;
+// scss-docs-end headings-variables
+
+// scss-docs-start list-group-variables
+$list-group-border-width: 0px !default;
+$list-group-border-color: white !default;
+$list-group-item-padding-x: 0px !default;
+$list-group-item-padding-y: 1rem !default;
+
+// scss-docs-end list-group-variables

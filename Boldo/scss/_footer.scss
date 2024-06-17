@@ -1,0 +1,54 @@
+footer {
+    .container {
+        @include border-radius(12px);
+    }
+
+    div {
+        h2 {
+            max-width: 716px;
+            text-align: center;
+        }
+
+        form {
+            input {
+                max-width: 370px;
+                padding: 0.75rem;
+                padding-left: 1.75rem;
+                font-size: 20px;
+                @include border-radius(240px);
+                outline: none;
+            }
+
+            button {
+                @include btn-property($bg-green, 56, 16, 56, $bg-gray) {
+                    border: none;
+                    font-size: 1.25rem;
+                    line-height: 1.75rem;
+                }
+            }
+        }
+    }
+}
+
+.hiring {
+    @include btn-property($bg-green, 120, 1, 14, $bg-gray) {
+        border: none;
+        font-size: 13px;
+        line-height: 1.75rem;
+    }
+}
+
+.footer-heading{
+    font-weight: bolder;
+    color:$bg-darkBlue;
+}
+
+.footer-ul{
+    gap:2rem;
+    li{
+        a{
+            text-decoration: none;
+            color:$text-gray;
+        }
+    }
+}

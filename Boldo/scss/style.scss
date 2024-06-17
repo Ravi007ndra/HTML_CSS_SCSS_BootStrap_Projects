@@ -1,0 +1,98 @@
+@import "variable";
+@import "mixin";
+@import "header";
+@import "handshake";
+@import "customer";
+@import "template";
+@import "management";
+@import "footer";
+@import "about";
+@import "blog";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $font-family-2;
+    font-size: 1.25rem;
+    line-height: 2rem;
+}
+
+h2,
+h3,
+h4,
+h5 {
+    font-family: $font-family-1;
+}
+
+h2 {
+    font-size: 3rem;
+    line-height: 4.5rem;
+}
+
+h3 {
+    font-size: 2.25rem;
+    line-height: 3.5rem;
+}
+
+h4 {
+    font-size: 1.75rem;
+    line-height: 3rem;
+}
+
+.text-m {
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+}
+
+.text-xs {
+    font-size: 1rem;
+    line-height: 1.75rem;
+}
+
+.bg-darkBlue {
+    background-color: $bg-darkBlue;
+}
+
+.text-white {
+    color: $text-white;
+}
+
+.text-gray {
+    color: $text-gray;
+}
+
+.text-lightGray {
+    color: #F1F1F1;
+}
+
+.contant-h2 {
+    max-width: 842px;
+    text-align: center;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.text-green {
+    color: $bg-green;
+}
+
+.text-xxl {
+    font-size: 4rem;
+    line-height: 5.25rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-darkBlue {
+    color: $bg-darkBlue;
+}
+
+.font-bold {
+    font-weight: 700;
+}

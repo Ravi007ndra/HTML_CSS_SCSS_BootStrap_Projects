@@ -1,0 +1,47 @@
+.checkmark-icon {
+    font-size: 2.25rem;
+    color: $bg-darkBlue;
+}
+
+.customer-btn {
+    @include btn-property($bg-darkBlue, 56, 16, 56, gray) {
+        border: none;
+        color: white;
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+    }
+}
+
+.customer-img {
+    width: 100%;
+    height: auto;
+}
+
+.customer-li {
+    box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.08);
+    @include border-radius(5px);
+
+    &:hover {
+        background-color: $bg-darkBlue;
+        color: $text-white;
+
+        .checkmark-icon {
+            color: $text-white;
+        }
+    }
+
+}
+
+.chevron-box {
+    border-bottom: 2px solid #c4c4c4;
+}
+
+.chevron-down-circle {
+    font-size: 2rem;
+    color: $bg-darkBlue;
+
+    &:hover {
+        cursor: pointer;
+        color: rgb(17, 17, 65);
+    }
+}

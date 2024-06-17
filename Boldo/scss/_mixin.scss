@@ -1,0 +1,25 @@
+@mixin btn-property($bg-color, $radius, $py, $px, $bg-hover) {
+    font-weight: 700;
+    background-color: $bg-color;
+    border-radius: $radius+px;
+    padding: $py+px $px+px;
+
+    &:hover {
+        background-color: $bg-hover;
+        cursor: pointer;
+    }
+
+    @content;
+}
+
+@mixin border-radius($value) {
+    -webkit-border-radius: $value;
+    -moz-border-radius: $value;
+    border-radius: $value;
+}
+
+@mixin media($value) {
+    @media screen and (max-width : $value) {
+        @content;
+    }
+}

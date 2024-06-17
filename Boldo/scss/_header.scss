@@ -1,0 +1,60 @@
+.right-nav {
+    gap: 40px;
+
+    @include media($md) {
+        gap: 0px;
+    }
+
+    li {
+        a {
+            text-decoration: none;
+            font-weight: 600;
+
+            &:hover {
+                color: $text-gray;
+            }
+
+            @include media($md) {
+                display: none;
+            }
+        }
+
+        button {
+            @include btn-property($bg-white, 24, 8, 40, $bg-gray);
+            border: 2px solid $bg-darkBlue;
+            line-height: 1.5rem;
+            font-size: 1rem;
+        }
+    }
+}
+
+.btn-buyTemplate {
+    @include btn-property($bg-green, 56, 16, 56, $bg-gray) {
+        border: none;
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+    }
+}
+
+.btn-explore {
+    @include btn-property($bg-darkBlue, 56, 16, 56, $bg-gray) {
+        border: 2px solid white;
+        color: white;
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+    }
+}
+
+.img-header {
+    width: 100%;
+    height: auto;
+}
+
+.img-header-2 {
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    border-bottom:2px solid $bg-darkBlue;
+}

@@ -1,0 +1,42 @@
+.template {
+    h2 {
+        max-width: 715px;
+    }
+}
+
+.arrow-icon {
+    font-size: 2rem;
+    padding: 1rem;
+    width: fit-content;
+    height: fit-content;
+    background-color: white;
+    @include border-radius(50%);
+
+    &:hover {
+        background-color: $text-gray;
+        color: white;
+    }
+
+    @include media($md){
+        display: none !important;
+    }
+
+}
+
+.template-card {
+    @include border-radius(12px);
+}
+
+.template-card-sign {
+    p {
+        font-size: 1rem;
+        line-height: 1.25rem;
+        font-weight: 700;
+    }
+
+    span {
+        font-size: .875rem;
+        line-height: 1rem;
+        color: $text-gray;
+    }
+}

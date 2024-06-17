@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message-Box</title>
+
+    <!-- link google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sen:wght@700&display=swap" rel="stylesheet">
+
+    <!-- link icons -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <!-- link reset CSS -->
+    <link rel="stylesheet" href="reset.css">
+
+    <!-- link CSS -->
+    <link rel="stylesheet" href="messages.css">
+</head>
+
+<body>
+
+    <div class="container  d-flex">
+
+        <!-- left side of cheat box  start-->
+        <div class="left-container d-flex f-dir-col">
+            <div class="left-container-header  d-flex jc-sb f-dir-row">
+                <h1 class="left-header-heading line-h-1">Messages</h1>
+                <button
+                    class="header-plus-btn iteam-bg-color color-white d-flex jc-sb align-item-center border-radius-round line-h-1">
+                    <ion-icon name="add-outline"></ion-icon>
+                </button>
+            </div>
+
+            <!-- divider  -->
+            <div class="divider line-h-0"></div>
+
+            <!-- scroll box -->
+            <div class="scroll-box">
+                <h5 class="scroll-box-heading">Latest</h5>
+
+                <ul class="scroll-box-list d-flex ">
+                    <li class="scroll-box-list-li-1">
+                        <img src="photos&video/avatar/avatar10.jpg" class="online-img border-radius-round" width="37px"
+                            class="avatar" alt="Bessie Fox">
+                        <div class="status online border-radius-round iteam-bg-color"></div>
+                    </li>
+                    <li class="scroll-box-list-li-2">
+
+                        <h5>Bessie Fox</h5>
+                        <p>Hi Kristin, I've over the result of the latest MRI and have some...</p>
+                    </li>
+                    <li class="scroll-box-list-li-3">
+                        <p>5 min</p>
+                    </li>
+                </ul>
+
+                <ul class="scroll-box-list d-flex ">
+                    <li class="scroll-box-list-li-1">
+                        <img src="photos&video/avatar/avatar9.jpg" class=" border-radius-round" width="37px"
+                            class="avatar" alt="Bessie Fox">
+                    </li>
+                    <li class="scroll-box-list-li-2">
+                        <h5>Colleen Howard</h5>
+                        <p>Hi Kristin, when you have time please take a look at the new exercises I just made.</p>
+                    </li>
+                    <li class="scroll-box-list-li-3">
+                        <p>5 min</p>
+                    </li>
+                </ul>
+
+                <ul class="scroll-box-list d-flex ">
+                    <li class="scroll-box-list-li-1">
+                        <img src="photos&video/avatar/avatar8.jpg" class=" border-radius-round" width="37px"
+                            class="avatar" alt="Bessie Fox">
+                    </li>
+                    <li class="scroll-box-list-li-2">
+                        <h5>Jennie Miles</h5>
+                        <p>Hello we're happy to help. However, encourage you to first explore...</p>
+                    </li>
+                    <li class="scroll-box-list-li-3">
+                        <p>5 min</p>
+                    </li>
+                </ul>
+
+                <ul class="scroll-box-list d-flex ">
+                    <li class="scroll-box-list-li-1">
+                        <img src="photos&video/avatar/avatar7.jpg" class=" border-radius-round" width="37px"
+                            class="avatar" alt="Bessie Fox">
+                    </li>
+                    <li class="scroll-box-list-li-2">
+                        <h5>Jenny Donaldson</h5>
+                        <p>I found out that Lesya has completed her part of the work and is waiting for your...</p>
+                    </li>
+                    <li class="scroll-box-list-li-3">
+                        <p>5 min</p>
+                    </li>
+                </ul>
+
+                <!-- divider  -->
+                <div class="divider line-h-0"></div>
+
+
+                <h5 class="scroll-box-heading">All Contracts</h5>
+
+                <ul class="scroll-box-list d-flex ">
+                    <li class="scroll-box-list-li-1">
+                        <img src="photos&video/avatar/avatar6.jpg" class=" border-radius-round" width="37px"
+                            class="avatar" alt="Bessie Fox">
+                    </li>
+                    <li class="scroll-box-list-li-2">
+                        <h5>Bessie Fox</h5>
+                        <p>Hi Kristin, I've over the result of the latest MRI and have some...</p>
+                    </li>
+                    <li class="scroll-box-list-li-3">
+                        <p>5 min</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- left side chat box end -->
+
+        <!-- right side chat box start  -->
+        <div class="right-container d-flex f-dir-col jc-sb">
+
+            <!-- right sider header start  -->
+            <div class="right-container-header d-flex">
+                <div class="right-header-avatar">
+                    <img src="photos&video//avatar/avatar5.jpg" class="right-header-avatar border-radius-round"
+                        alt="Bessie Fox">
+                </div>
+                <div class="right-header-content">
+                    <h4>Bessie Fox</h4>
+                    <p class="line-h-1">5 minutes ago</p>
+                </div>
+                <div class="right-header-icons d-flex align-item-center jc-sb">
+                    <ion-icon name="search"></ion-icon>
+                    <ion-icon name="ellipsis-vertical"></ion-icon>
+                </div>
+            </div>
+            <!-- end -->
+
+            <!-- right side scroll box -->
+            <ul class="right-scroll d-flex f-dir-col">
+                <li class="right-scroll-box">
+                    <video class="right-scroll-video float-right" controls>
+                        <source src="photos&video/video.mp4" type="video/mp4">
+                    </video>
+                </li>
+                <li class="right-scroll-box">
+                    <audio controls class="right-scroll-audio float-right">
+                        <source src="photos&video/music.mp3" type="audio/mpeg">
+                    </audio>
+                </li>
+
+                <li>
+                    <p class="textBetweenLine"><span>Yesterday, 23 Oct</span> </p>
+                </li>
+
+                <li class="right-scroll-box">
+                    <div class="right-scroll-pdf bg-color-white">
+                        <p>Bessie Fox</p>
+                        <h5>This is my results</h5>
+                        <div class="pdf-box d-flex jc-sb">
+                            <ion-icon class="pdf-icon" name="document-text-outline"></ion-icon>
+                            <h6>Sleep zone results.pdf</h6>
+                            <p>13:21</p>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="right-scroll-box">
+                    <div class="right-scroll-msg-1 d-flex jc-sb float-right color-white">
+                        <p class="color-white">hello, okey that would great thanks, I've been wondering about a few of
+                            the risks involved
+                        </p>
+                        <ion-icon class="check-icon" name="checkmark-done-outline"></ion-icon>
+                        <p class="color-white">13:21</p>
+                    </div>
+                </li>
+                <li class="right-scroll-box">
+                    <div class="right-scroll-msg-2 d-flex  jc-sb float-right color-white">
+                        <p class="color-white">And also the recovery <br> period
+                        </p>
+                        <div class="d-flex">
+                            <ion-icon class="check-icon" name="checkmark-done-outline"></ion-icon>
+                            <p class="color-white">13:21</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+            <div class="from">
+                <form action="#">
+                    <div class="from-box d-flex bg-color-white  ">
+                        <div class="paerClip-icon d-flex  align-item-center">
+                            <ion-icon name="attach-outline"></ion-icon>
+                        </div>
+                        <input class="inputText" placeholder="Type Message" type="text" name="#" id="#">
+                        <div class="send-btn-icon d-flex  align-item-center ">
+                            <ion-icon name="send-outline"></ion-icon>
+                        </div>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

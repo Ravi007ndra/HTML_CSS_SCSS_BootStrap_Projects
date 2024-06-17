@@ -1,0 +1,30 @@
+@import "variable";
+@import "mixin";
+@import "header";
+@import "about";
+@import "footer";
+
+body {
+    font-family: $poppins-fontFamily;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+p {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    margin-bottom: 0rem;
+}
+
+.text-small {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.bg-yellow {
+    background-color: $bg-yellow;
+}
+
+.text-darkGray {
+    color: $text-darkGray;
+}

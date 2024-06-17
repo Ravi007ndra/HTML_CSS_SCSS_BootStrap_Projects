@@ -1,0 +1,63 @@
+.header {
+  background-color: #F4F6F5;
+  border-radius: 2rem;
+}
+
+.payDaySaleNow {
+  background: -webkit-gradient(linear, left bottom, left top, from(#E0C340), color-stop(3.93%, #DFC23E), color-stop(7.23%, #E1C441), color-stop(10.23%, #E3C743), color-stop(13.14%, #E4C542), color-stop(16.22%, #E6C744), color-stop(19.84%, #E7C845), color-stop(24.38%, #E5C643), color-stop(31%, #E6C945), color-stop(37.19%, #E3C743), color-stop(43.33%, #E9CA48), color-stop(50.36%, #EDCE49), color-stop(56.57%, #F0D44C), color-stop(62.71%, #F4D84F), color-stop(67.12%, #F6DA52), color-stop(73.77%, #F7DB53), color-stop(79.08%, #F9DD55), color-stop(85.64%, #F9DF56), color-stop(93.5%, #FAE157), to(#F9DF56));
+  background: linear-gradient(360deg, #E0C340 0%, #DFC23E 3.93%, #E1C441 7.23%, #E3C743 10.23%, #E4C542 13.14%, #E6C744 16.22%, #E7C845 19.84%, #E5C643 24.38%, #E6C945 31%, #E3C743 37.19%, #E9CA48 43.33%, #EDCE49 50.36%, #F0D44C 56.57%, #F4D84F 62.71%, #F6DA52 67.12%, #F7DB53 73.77%, #F9DD55 79.08%, #F9DF56 85.64%, #FAE157 93.5%, #F9DF56 100%);
+}
+
+.inputWithButton {
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+}
+.inputWithButton input {
+  border: 1px solid white;
+  font-size: 1rem;
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+}
+
+.footer-ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1.5rem;
+  padding-left: 0;
+}
+.footer-ul li a {
+  text-decoration: none;
+  color: #7F7F7F;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+p {
+  font-size: 2rem;
+  line-height: 2.5rem;
+  margin-bottom: 0rem;
+}
+
+.text-small {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.bg-yellow {
+  background-color: #EBD96B;
+}
+
+.text-darkGray {
+  color: #7F7F7F;
+}
